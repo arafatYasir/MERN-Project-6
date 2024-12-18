@@ -3,27 +3,52 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-ul, ol {
+ul,
+ol {
     list-style: none;
 }
 
 /* ----Common Styles Bootstrap---- */
 .container {
     max-width: 1620px;
-
 }
 
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+.row>* {
+    padding: 0;
+}
+
+.row {
+    margin: 0;
+}
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
     padding: 0;
     justify-content: flex-start;
 }
 
 /* ----Navbar Section---- */
-.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+.navbar>.container,
+.navbar>.container-fluid,
+.navbar>.container-lg,
+.navbar>.container-md,
+.navbar>.container-sm,
+.navbar>.container-xl,
+.navbar>.container-xxl {
     justify-content: start;
     /* gap: 30px; */
+}
+
+nav {
+    margin-top: 15px;
 }
 
 .input-group-text i:first-child {
@@ -139,14 +164,127 @@ nav .menu-items li:hover {
     background: #fff;
 }
 
-nav .input-group-text:hover i:last-child {
+nav .input-group-text:hover .angle {
     transform: rotate(180deg);
 }
 
 nav .input-group-text:hover .menu-items {
     top: 63px;
     display: block;
-    /* text-align: center; */
+}
+
+/* ----Banner Section---- */
+#banner .row {
+    align-items: end;
+}
+
+#banner .carousel-indicators {
+    margin-left: 0;
+    margin-right: 0;
+    right: 80%;
+    bottom: 90px;
+}
+
+#banner .carousel-indicators button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #676570;
+}
+
+#banner .carousel-indicators .active {
+    background: #6C5DD3;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+#banner .carousel-indicators [data-bs-target] {
+    border: 0;
+}
+
+#banner .main-div {
+    border-radius: 24px;
+    background: #9C9C9C;
+    padding: 50px 30px;
+}
+
+#banner .main-div .title {
+    color: #FFF;
+    text-align: center;
+    font-family: "Cairo", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+#banner .main-div .description {
+    margin-top: 16px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Open Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#banner .main-div h4 {
+    color: #FFF;
+    font-family: "Cairo", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: -45px;
+    text-align: center;
+}
+
+#banner .main-div .categories {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: "Open Sans", serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#banner .pricing {
+    border-radius: 14px;
+    background: #FFF;
+    max-width: 205px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#banner .pricing p {
+    padding: 13px 0;
+    margin-bottom: 0;
+}
+
+#banner .pricing .cross {
+    color: #AAA;
+    font-family: "Cairo", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#banner .pricing .new {
+    color: #11142D;
+    font-family: "Cairo", sans-seri;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 17px;
+}
+
+#banner .carousel-control-prev,
+#banner .carousel-control-next {
+    width: 32px;
+    height: 32px;
+    background: rgba(255, 255, 255, 0.18);
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#banner .carousel-control-prev-icon,
+#banner .carousel-control-next-icon {
+    background-size: 80%;
 }
 
 /* MediaQuery */
@@ -155,6 +293,7 @@ nav .input-group-text:hover .menu-items {
         margin-left: 0;
         margin-top: 10px;
     }
+
     .navbar-form {
         min-width: 100%;
     }
@@ -165,13 +304,21 @@ nav .input-group-text:hover .menu-items {
         margin-left: 0;
         margin-top: 10px;
     }
+
     .navbar-form {
         min-width: 100%;
     }
 }
 
 @media screen and (min-width: 1200px) {
-    .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+
+    .navbar>.container,
+    .navbar>.container-fluid,
+    .navbar>.container-lg,
+    .navbar>.container-md,
+    .navbar>.container-sm,
+    .navbar>.container-xl,
+    .navbar>.container-xxl {
         justify-content: space-between;
         /* gap: 30px; */
     }
