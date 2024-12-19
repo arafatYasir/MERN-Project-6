@@ -16,6 +16,10 @@ ol {
     max-width: 1620px;
 }
 
+p {
+    margin: 0;
+}
+
 .row>* {
     padding: 0;
 }
@@ -175,7 +179,7 @@ nav .input-group-text:hover .menu-items {
 
 /* ----Banner Section---- */
 #banner .row {
-    align-items: end;
+    align-items: center;
 }
 
 #banner .carousel-indicators {
@@ -287,7 +291,75 @@ nav .input-group-text:hover .menu-items {
     background-size: 80%;
 }
 
-/* MediaQuery */
+#banner .icons-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+#banner .icons-wrapper .item {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+#banner .title {
+    color: #11142D;
+    font-family: "Cairo", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+#banner .description {
+    max-width: 267px;
+    color: #AAA;
+    font-family: "Open Sans", serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+#banner .branding {
+    margin-top: 90px;
+}
+
+#banner .first-carousel .item {
+    background: url("../images/banner_bg_2.webp") no-repeat center center;
+    height: 443px;
+    padding: 38px 90px;
+}
+
+#banner .first-carousel .title, #banner .second-carousel .title {
+    color: #11142D;
+    font-family: "Cairo", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+#banner .first-carousel .description, #banner .second-carousel .description {
+    color: #11142D;
+    font-family: "Open Sans", serif;
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 512px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+#banner .img-wrapper {
+    display: flex;
+    gap: 15px;
+}
+
+#banner .second-carousel .item {
+    background: url("../images/banner_bg_3.webp") no-repeat center center;
+    height: 443px;
+    padding: 38px 90px;
+}
+
+/* ----Media Query---- */
 @media screen and (max-width: 576px) {
     nav .btns {
         margin-left: 0;
@@ -296,6 +368,11 @@ nav .input-group-text:hover .menu-items {
 
     .navbar-form {
         min-width: 100%;
+    }
+
+    #banner .icons-wrapper {
+        flex-direction: column;
+        gap: 20px;
     }
 }
 
@@ -307,6 +384,20 @@ nav .input-group-text:hover .menu-items {
 
     .navbar-form {
         min-width: 100%;
+    }
+
+    #banner .icons-wrapper {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        row-gap: 15px;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #banner .row {
+        margin-top: 30px;
+        gap: 20px;
     }
 }
 
