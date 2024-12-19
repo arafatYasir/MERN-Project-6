@@ -331,14 +331,16 @@ nav .input-group-text:hover .menu-items {
     padding: 38px 90px;
 }
 
-#banner .first-carousel .title, #banner .second-carousel .title {
+#banner .first-carousel .title,
+#banner .second-carousel .title {
     color: #11142D;
     font-family: "Cairo", sans-serif;
     font-size: 36px;
     font-weight: 700;
 }
 
-#banner .first-carousel .description, #banner .second-carousel .description {
+#banner .first-carousel .description,
+#banner .second-carousel .description {
     color: #11142D;
     font-family: "Open Sans", serif;
     font-size: 14px;
@@ -357,6 +359,126 @@ nav .input-group-text:hover .menu-items {
     background: url("../images/banner_bg_3.webp") no-repeat center center;
     height: 443px;
     padding: 38px 90px;
+}
+
+/* ----Offers Section---- */
+#offers {
+    margin-top: 130px;
+}
+
+#offers .title {
+    color: #11142D;
+    text-align: center;
+    font-family: "Cairo", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+#offers .description {
+    max-width: 650px;
+    color: #11142D;
+    text-align: center;
+    font-family: "Open Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+#offers .wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+}
+
+#offers .card {
+    max-width: 510px;
+    border-radius: 14px;
+}
+
+#offers .card-body {
+    padding: 30px 38px 30px 30px;
+}
+
+#offers .card-title {
+    color: #11142D;
+    font-family: "Cairo", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#offers .card-text {
+    max-width: 452px;
+    color: rgba(0, 0, 0, 0.80);
+    font-family: "Open Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 18px;
+}
+
+#offers .category {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+#offers .category .item {
+    color: #6C5DD3;
+    font-family: "Open Sans", serif;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 14px;
+    background: #F0EEFF;
+    padding: 7px 14px;
+}
+
+#offers .card .name {
+    color: #11142D;
+    font-family: "Open Sans", serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 28px;
+    margin-bottom: 30px;
+}
+
+#offers .card .pricing {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#offers .card a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: "Cairo", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    background: #6C5DD3;
+    padding: 13px 51px;
+    border-radius: 14px;
+}
+
+#offers .card a i {
+    margin-right: 17px;
+}
+
+#offers .card .pricing .new {
+    color: #11142D;
+    font-family: "Cairo", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-right: 15px;
+}
+
+#offers .card .pricing .cross {
+    color: #AAA;
+    font-family: "Cairo", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-decoration: line-through;
 }
 
 /* ----Media Query---- */
@@ -392,12 +514,22 @@ nav .input-group-text:hover .menu-items {
         row-gap: 15px;
         align-items: center;
     }
+
+    /* #offers .wrapper {
+        flex-direction: column;
+        align-items: center;
+    } */
 }
 
 @media screen and (max-width: 992px) {
     #banner .row {
         margin-top: 30px;
         gap: 20px;
+    }
+
+    #offers .wrapper {
+        flex-direction: column;
+        align-items: center;
     }
 }
 
