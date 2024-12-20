@@ -609,6 +609,147 @@ nav .input-group-text:hover .menu-items {
     margin-left: 15px;
 }
 
+/* ----Book Sale Section---- */
+#book {
+    margin-top: 130px;
+}
+
+#book .title {
+    color: #11142D;
+    font-family: "Cairo", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#book .carousel {
+    margin-top: 45px;
+}
+
+#book .carousel-indicators {
+    top: -30px;
+    left: 86%;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    z-index: 0;
+}
+
+#book .carousel-indicators button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #676570;
+}
+
+#book .carousel-indicators .active {
+    background: #6C5DD3;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+#book .carousel-indicators [data-bs-target] {
+    border: 0;
+}
+
+#book .image {
+    position: relative;
+}
+
+#book .carousel .image .discount {
+    width: 95px;
+    height: 54px;
+    position: absolute;
+    top: 24px;
+}
+
+#book .carousel .image .discount p {
+    color: #FFF;
+    background: #FF754C;
+    text-align: center;
+    font-family: "Open Sans", serif;
+    font-size: 26px;
+    font-weight: 600;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#book .carousel-inner .info {
+    width: 239px;
+}
+
+#book .carousel-inner .info h4 {
+    color: #11142D;
+    font-family: "Cairo", serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 18px;
+}
+
+#book .carousel-inner .info p {
+    color: #6C5DD3;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#book .carousel-inner .info .rating {
+    color: #FF754C;
+    font-family: "Open Sans", serif;
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#book .carousel-inner .info .rating i {
+    font-size: 22px;
+}
+
+#book .carousel-inner .info .price-rating {
+    margin-top: 32px;
+}
+
+#book .carousel-inner .info .price .new {
+    color: #11142D;
+    font-family: "Cairo", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#book .carousel-inner .info .price .cross {
+    color: #AAA;
+    font-family: "Cairo", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: line-through;
+    margin-left: 8px;
+}
+
+#book .carousel-control-prev {
+    left: 88%;
+}
+
+#book .carousel-control-next {
+    right: 30px;
+}
+
+#book .carousel-control-prev,
+#book .carousel-control-next {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #F0EEFF;
+    top: -40px;
+}
+
+#book .carousel-control-prev i,
+#book .carousel-control-next i {
+    color: #6C5DD3;
+    font-size: 20px;
+}
+
 /* ----Media Query---- */
 @media screen and (max-width: 576px) {
     nav .btns {
