@@ -750,6 +750,129 @@ nav .input-group-text:hover .menu-items {
     font-size: 20px;
 }
 
+/* ----Featured Books Section---- */
+#featured {
+    margin: 100px 0;
+    padding: 71px 0;
+    background: url("../images/featured_bg.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#featured .title {
+    color: #11142D;
+    font-family: "Cairo", serif;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+#featured .description {
+    max-width: 453px;
+    color: #11142D;
+    font-family: "Open Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#featured .book-box {
+    max-width: 762px;
+    border-radius: 14px;
+    background: var(--White, #FFF);
+    box-shadow: 0px 25px 33px 0px rgba(108, 93, 211, 0.25);
+    padding: 39px 32px 32px 30px;
+    margin-top: 60px;
+}
+
+#featured h4 {
+    color: #11142D;
+    font-family: "Cairo", serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 3px;
+}
+
+#featured .category {
+    color: #6C5DD3;
+    font-family: "Open Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#featured h5 {
+    color: #11142D;
+    font-family: "Open Sans", serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-top: 34px;
+}
+
+#featured .quote {
+    max-width: 353px;
+    color: #11142D;
+    font-family: "Open Sans", serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 15px;
+    margin-bottom: 21px;
+}
+
+#featured .info p {
+    color: #AAA;
+    font-family: "Open Sans", serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#featured .info h5 {
+    color: #11142D;
+    font-family: "Open Sans", serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+#featured .pricing {
+    margin-top: 25px;
+}
+
+#featured .pricing h4 {
+    color: #11142D;
+    font-family: "Cairo", serif;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+#featured .pricing h4 span {
+    color: #AAA;
+    font-family: "Cairo", serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: line-through;
+}
+
+#featured .pricing button {
+    background: #6C5DD3;
+    border: 0;
+    border-radius: 14px;
+    color: #FFF;
+    font-family: "Cairo";
+    font-size: 18px;
+    font-weight: 700;
+    padding: 18px 20px;
+}
+
+#featured .pricing button i {
+    margin-right: 8px;
+}
+
+#featured .books {
+    row-gap: 36px;
+}
+
 /* ----Media Query---- */
 @media screen and (max-width: 576px) {
     nav .btns {
