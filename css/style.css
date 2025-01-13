@@ -873,6 +873,96 @@ nav .input-group-text:hover .menu-items {
     row-gap: 36px;
 }
 
+
+/* ----Latest News Section---- */
+#news {
+    margin: 100px 0;
+    padding: 56px 0 128px 0;
+}
+
+#news .title {
+    color: #11142D;
+    font-family: "Cairo";
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+#news .description {
+    max-width: 584px;
+    color: rgba(0, 0, 0, 0.60);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#news button {
+    background: #6C5DD3;
+    border: 0;
+    border-radius: 14px;
+    color: #FFF;
+    font-family: "Cairo";
+    font-size: 18px;
+    font-weight: 600;
+    padding: 13px 24px;
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.news-wrapper {
+    margin-top: 80px;
+}
+
+.news-wrapper h4 {
+    color: #11142D;
+    font-family: "Cairo";
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.news-wrapper p {
+    color: rgba(0, 0, 0, 0.50);
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 12px;
+}
+
+.news-wrapper a {
+    text-decoration: none;
+    color: #6C5DD3;
+    margin-top: 4px;
+}
+
+#news .profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+#news .profile h5 {
+    color: #11142D;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#news .profile p {
+    color: #AAA;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 4px;
+}
+
+#news .item {
+    max-width: 372px;
+
+}
+
 /* ----Media Query---- */
 @media screen and (max-width: 576px) {
     nav .btns {
