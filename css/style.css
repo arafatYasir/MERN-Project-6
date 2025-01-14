@@ -912,6 +912,7 @@ nav .input-group-text:hover .menu-items {
 
 .news-wrapper {
     margin-top: 80px;
+    justify-content: center;
 }
 
 .news-wrapper h4 {
@@ -961,6 +962,100 @@ nav .input-group-text:hover .menu-items {
 #news .item {
     max-width: 372px;
 
+}
+
+
+/* ----Counter Section---- */
+#counter {
+    margin: 100px 0 112px 0;
+    padding: 60px 0;
+}
+
+#counter .image {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+#counter h3 {
+    color: #11142D;
+    text-align: center;
+    font-family: "Cairo";
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+#counter p {
+    color: #AAA;
+    text-align: center;
+    font-family: "Cairo";
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+/* ----Subscribe Section---- */
+#subscribe .wrapper {
+    background: url("../images/subscribe_bg.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 69px 0;
+    border-radius: 32px;
+}
+
+#subscribe .title {
+    max-width: 693px;
+    margin: 0 auto;
+    color: #FFF;
+    text-align: center;
+    font-family: "Cairo";
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 55px;
+}
+
+#subscribe input {
+    color: #E2E2E2;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    border: 0;
+    border-top-left-radius: 14px;
+    border-bottom-left-radius: 14px;
+    background: #7C6DE3;
+    padding: 22px 0 22px 32px;
+    width: 486px;
+}
+
+#subscribe input::placeholder {
+    color: #E2E2E2;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+#subscribe button {
+    border: 0;
+    border-radius: 0px 14px 14px 0px;
+    background: #FFF;
+    box-shadow: 0px 7px 20px 0px rgba(141, 40, 173, 0.15);
+    color: #11142D;
+    font-family: "Cairo";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 22px 38px;
+    margin-left: -4px;
+}
+
+#subscribe .input-field {
+    max-width: 652px;
+    margin: auto;
+    margin-top: 50px;
 }
 
 /* ----Media Query---- */
