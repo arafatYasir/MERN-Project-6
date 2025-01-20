@@ -375,6 +375,10 @@ nav .input-group-text:hover .menu-items {
     padding: 38px 90px;
 }
 
+#banner .mobile-carousel {
+    display: none;
+}
+
 /* ----Offers Section---- */
 #offers {
     margin-top: 130px;

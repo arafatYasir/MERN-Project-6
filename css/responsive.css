@@ -1,5 +1,6 @@
 /* ----Media Query---- */
 @media screen and (max-width: 576px) {
+
     /* ----Navbar Section---- */
     nav .btns {
         margin-left: 0;
@@ -15,7 +16,7 @@
         transform: translateX(-50%);
     }
 
-    .navbar > .container {
+    .navbar>.container {
         gap: 10px;
     }
 
@@ -44,6 +45,7 @@
     #banner {
         margin-top: 36px;
     }
+
     #banner .icons-wrapper {
         flex-direction: column;
         gap: 20px;
@@ -69,5 +71,26 @@
 
     #banner .carousel-item img {
         width: 50%;
+    }
+
+    #banner .first-carousel .title,
+    #banner .second-carousel .title {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    #banner .first-carousel .description,
+    #banner .second-carousel .description {
+        font-size: 13px;
+        margin-top: 6px;
+        margin-bottom: 30px;
+    }
+
+    #banner .mobile-carousel {
+        display: block;
+    }
+
+    #banner .desktop-carousel {
+        display: none;
     }
 }
