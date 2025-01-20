@@ -14,6 +14,10 @@ ol {
     max-width: 1620px;
 }
 
+.mobile-carousel {
+    display: none;
+}
+
 .h1,
 .h2,
 .h3,
@@ -375,9 +379,6 @@ nav .input-group-text:hover .menu-items {
     padding: 38px 90px;
 }
 
-#banner .mobile-carousel {
-    display: none;
-}
 
 /* ----Offers Section---- */
 #offers {
@@ -513,6 +514,11 @@ nav .input-group-text:hover .menu-items {
     width: 57px;
     height: 57px;
     border-radius: 50%;
+    transition: 0.3s;
+}
+
+#offers .arrows div:hover {
+    background: #6C5DD3;
 }
 
 /* ----Flash Sale Section---- */
@@ -595,6 +601,10 @@ nav .input-group-text:hover .menu-items {
 
 #sale .pricing {
     margin-top: 9px;
+}
+
+#sale .pricing p {
+    text-align: center;
 }
 
 #sale .pricing .new {

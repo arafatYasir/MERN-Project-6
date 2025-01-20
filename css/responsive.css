@@ -1,5 +1,13 @@
 /* ----Media Query---- */
 @media screen and (max-width: 576px) {
+    /* Common Css Styles */
+    .mobile-carousel {
+        display: block;
+    }
+
+    .desktop-carousel {
+        display: none;
+    }
 
     /* ----Navbar Section---- */
     nav .btns {
@@ -86,11 +94,83 @@
         margin-bottom: 30px;
     }
 
-    #banner .mobile-carousel {
-        display: block;
+    /* ----Offers Section---- */
+    #offers .title {
+        font-size: 36px;
+    }
+    #offers .description {
+        font-size: 13px;
     }
 
-    #banner .desktop-carousel {
-        display: none;
+    #offers .wrapper {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    #offers .card-title {
+        font-size: 20px;
+    }
+
+    #offers .card-text {
+        font-size: 14px;
+    }
+
+    #offers .card a {
+        padding: 8px 18px;
+        font-size: 15px;
+    }
+
+    #offers .card .pricing .new {
+        font-size: 22px;
+    }
+
+    #offers .card .pricing .cross {
+        font-size: 18px;
+    }
+
+    /* ----Flash Sale Section---- */
+    #sale .title {
+        font-size: 36px;
+    }
+
+    #sale .description {
+        font-size: 13px;
+    }
+
+    #sale .card-wrapper {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+        margin-top: 44px;
+    }
+
+    #sale .time-wrapper h2 {
+        font-size: 36px;
+        font-weight: 600;
+    }
+
+    #sale .pricing .new {
+        font-size: 23px;
+        font-weight: 600;
+    }
+
+
+    /* ----Book Sale Section---- */
+    #book .title {
+        font-size: 36px;
+        font-weight: 600;
+    }
+
+    #book .carousel-indicators {
+        top: -70px;
+        left: 50%;
+    }
+
+    #book .carousel-control-prev, #book .carousel-control-next {
+        top: -79px;
+    }
+
+    #book .carousel-control-prev {
+        left: 57%;
     }
 }
