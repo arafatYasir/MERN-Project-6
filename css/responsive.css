@@ -1,0 +1,73 @@
+/* ----Media Query---- */
+@media screen and (max-width: 576px) {
+    /* ----Navbar Section---- */
+    nav .btns {
+        margin-left: 0;
+        margin-top: 10px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .navbar-brand {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .navbar > .container {
+        gap: 10px;
+    }
+
+    .navbar-form {
+        min-width: 90%;
+        margin: 0 auto;
+    }
+
+    .navbar-form .menu span {
+        display: none;
+    }
+
+    .navbar-form .menu i:first-child {
+        display: none;
+    }
+
+    .input-group-text {
+        padding: 10px 15px;
+    }
+
+    .input-group>.form-control {
+        font-size: 14px;
+    }
+
+    /* ----Banner Section---- */
+    #banner {
+        margin-top: 36px;
+    }
+    #banner .icons-wrapper {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #banner .row {
+        gap: 25px;
+    }
+
+    #banner .carousel-indicators {
+        right: 68%;
+        bottom: 12px;
+    }
+
+    #banner .main-div .title {
+        font-size: 35px;
+        text-align: left;
+    }
+
+    #banner .main-div .description {
+        text-align: left;
+    }
+
+    #banner .carousel-item img {
+        width: 50%;
+    }
+}
