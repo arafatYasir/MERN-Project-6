@@ -859,7 +859,11 @@ nav .input-group-text:hover .menu-items {
     font-weight: 700;
 }
 
-#featured .pricing h4 span {
+#featured .pricing h4 .new {
+    font-size: 30px;
+}
+
+#featured .pricing h4 .cross{
     color: #AAA;
     font-family: "Cairo", serif;
     font-size: 20px;

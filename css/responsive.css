@@ -9,6 +9,10 @@
         display: none;
     }
 
+    .container {
+        padding: 0 16px;
+    }
+
     /* ----Navbar Section---- */
     nav .btns {
         margin-left: 0;
@@ -95,9 +99,14 @@
     }
 
     /* ----Offers Section---- */
+    #offers {
+        margin-top: 100px;
+    }
+
     #offers .title {
         font-size: 36px;
     }
+
     #offers .description {
         font-size: 13px;
     }
@@ -129,6 +138,10 @@
     }
 
     /* ----Flash Sale Section---- */
+    #sale {
+        margin-top: 100px;
+    }
+
     #sale .title {
         font-size: 36px;
     }
@@ -154,8 +167,11 @@
         font-weight: 600;
     }
 
-
     /* ----Book Sale Section---- */
+    #book {
+        margin-top: 100px;
+    }
+
     #book .title {
         font-size: 36px;
         font-weight: 600;
@@ -172,5 +188,126 @@
 
     #book .carousel-control-prev {
         left: 57%;
+    }
+
+    /* ----Featured Book Section---- */
+    #featured {
+        padding: 36px 0;
+    }
+    #featured .title {
+        font-size: 36px;
+    }
+
+    #featured .description {
+        font-size: 13px;
+    }
+
+    #featured .book-box {
+        flex-direction: column;
+        padding: 15px 0;
+    }
+
+    #featured .book-box .feature-img {
+        width: 50px;
+    }
+
+    #featured .book-box>div:last-child {
+        padding: 0 24px;
+    }
+
+    #featured h4 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    #featured .category {
+        font-size: 13px;
+    }
+
+    #featured h5 {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 8px;
+        margin-top: 20px;
+    }
+
+    #featured .quote {
+        font-size: 12px;
+        line-height: 18px;
+        margin-top: 12px;
+        margin-bottom: 16px;
+    }
+
+    #featured .info h5 {
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    #featured .pricing h4 .new {
+        font-size: 24px;
+    }
+
+    #featured .pricing h4 cross {
+        color: #AAA;
+        font-family: "Cairo", serif;
+        font-size: 16px;
+        font-weight: 600;
+        text-decoration: line-through;
+    }
+
+    #featured .pricing button {
+        font-size: 13px;
+        padding: 9px 12px;
+    }
+
+    #featured .hidden-books {
+        display: none;
+    }
+
+    /* ----Latest News Section---- */
+    #news {
+        padding: 0;
+    }
+
+    #news .title {
+        font-size: 36px;
+    }
+
+    #news .description {
+        font-size: 13px;
+    }
+
+    #news .wrapper {
+        flex-direction: column;
+        row-gap: 24px;
+    }
+
+    .news-wrapper {
+        row-gap: 24px;
+    }
+
+    /* ----Counter Section---- */
+    #counter {
+        padding: 0;
+        margin: 0;
+    }
+
+    #counter .row {
+        row-gap: 30px;
+    }
+
+    #counter .image {
+        width: 60px;
+        height: 60px;
+    }
+
+    #counter .image img {
+        width: 100%;
+    }
+
+    #counter h3 {
+        font-size: 30px;
+        font-weight: 600;
+        margin-top: 0px;
     }
 }
