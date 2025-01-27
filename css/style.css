@@ -62,7 +62,7 @@ p {
 .navbar>.container-sm,
 .navbar>.container-xl,
 .navbar>.container-xxl {
-    justify-content: start;
+    /* justify-content: start;   */
     /* gap: 30px; */
 }
 
